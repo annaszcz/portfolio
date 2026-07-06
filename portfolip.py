@@ -14,7 +14,7 @@ with st.sidebar:
     st.markdown("🚀 **Data Analyst** specializing in complex relational database design, analytics engineering, and business insight generation.")
     st.markdown("---")
     st.markdown("🔗 **Connect with me:**")
-    st.markdown("[GitHub](https://github.com/annaszfcz)")
+    st.markdown("[GitHub](https://github.com/annaszcz)")
     st.markdown("[LinkedIn](https://linkedin.com) *(Update link)*")
     st.markdown("---")
     st.markdown("💡 **Core Stack:**\n- **SQL** (PostgreSQL, MySQL)\n- **Python** (Pandas, Streamlit)\n- **BI** (Tableau, PowerBI)\n- **Tools** (dbt, Git)")
