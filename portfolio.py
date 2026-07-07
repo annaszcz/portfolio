@@ -15,9 +15,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("🔗 **Connect with me:**")
     st.markdown("[GitHub](https://github.com/annaszcz)")
-    st.markdown("[LinkedIn](https://linkedin.com) *(Update link)*")
+    st.markdown("[LinkedIn](https://linkedin.com) *(Update link)*") # set up
     st.markdown("---")
-    st.markdown("💡 **Core Stack:**\n- **SQL** (PostgreSQL, MySQL)\n- **Python** (Pandas, Streamlit)\n- **BI** (Tableau, PowerBI)\n- **Tools** (dbt, Git)")
+    st.markdown("💡 **Core Stack:**\n- **SQL** (SQL)\n- **Python** (Pandas, Streamlit)\n- **BI** (Tableau, PowerBI)\n- **Tools** (dbt, Git)")
 
 # 3. Main Hero Section
 st.title("Hi, I'm Anna! 👋")
@@ -32,14 +32,14 @@ st.markdown("---")
 st.header("🎯 Featured Projects")
 
 # Create tabs to neatly split projects without forcing the recruiter to scroll endlessly
-tab1, tab2 = st.tabs(["📊 Project 1: User Retention & SQL Churn Model", "🛍️ Project 2: E-Commerce Inventory Optimizer"])
+tab1, tab2 = st.tabs(["📊 Bike-share analysis" , "🛍️ E-commerce-analysis"])
 
 with tab1:
-    st.subheader("Subscription Churn & User Cohort Analysis Pipeline")
-    st.markdown("**Business Goal:** Uncover why subscription-based users drop off and identify high-risk accounts before they cancel.")
+    st.subheader(" Bike share analysis - PDataset from a company called Capital Bike Share - located in Washington DC. ")
+    st.markdown("**Business Goal:** roject which focuses on Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression. ")
     
     # Showcase your tech tags
-    st.info("🛠️ **Technologies Used:** PostgreSQL, Window Functions, CTEs, Python, Pandas")
+    st.info("🛠️ **Technologies Used:** Python, Pandas, Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression")
     
     # Mock data to show you know how data inputs work
     mock_data = pd.DataFrame({
