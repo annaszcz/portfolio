@@ -21,9 +21,9 @@ with st.sidebar:
 
 # 3. Main Hero Section
 st.title("Hi, I'm Anna! 👋")
-st.subheader("Data Analyst | SQL Specialist")
+st.subheader("Data Analyst | BI Specialist")
 st.write(
-    "Welcome to my interactive data portfolio. I specialize in parsing massive datasets, "
+    "Welcome to my interactive data portfolio. I specialise in parsing massive datasets, "
     "structuring star-schema data warehouses, and delivering actionable optimizations for business leaders."
 )
 st.markdown("---")
@@ -35,19 +35,15 @@ st.header("🎯 Featured Projects")
 tab1, tab2 = st.tabs(["📊 Bike-share analysis" , "🛍️ E-commerce-analysis"])
 
 with tab1:
-    st.subheader(" Bike share analysis - PDataset from a company called Capital Bike Share - located in Washington DC. ")
-    st.markdown("**Business Goal:** roject which focuses on Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression. ")
+    st.subheader(" Bike share analysis  on dataset from a company called Capital Bike Share (Washington, DC)")
+    st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation")
     
     # Showcase your tech tags
-    st.info("🛠️ **Technologies Used:** Python, Pandas, Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression")
+    st.info("🛠️ **Technologies Used:** Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression"
+            "Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn")
     
     # Mock data to show you know how data inputs work
-    mock_data = pd.DataFrame({
-        'cohort_month': ['January', 'February', 'March'],
-        'total_users': [1200, 950, 1100],
-        'month_1_retention': ['88%', '84%', '89%'],
-        'month_2_retention': ['61%', '58%', '64%']
-    })
+
     
     # Split the view layout side-by-side using columns
     col1, col2 = st.columns([1, 1])
