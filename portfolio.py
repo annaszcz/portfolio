@@ -32,10 +32,10 @@ st.markdown("---")
 st.header("🎯 Featured Projects")
 
 # Create tabs to neatly split projects without forcing the recruiter to scroll endlessly
-tab1, tab2 = st.tabs(["📊 Bike-share analysis" , "🛍️ E-commerce-analysis"])
+tab1, tab2 = st.tabs(["📊 Bike demand analysis" , "🛍️ E-commerce-analysis"])
 
 with tab1:
-    st.subheader(" Dataset from Capital Bike Share (Washington, DC)")
+    st.subheader("Analysis on Dataset from Capital Bike Share (Washington, DC)")
     st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation.")
     
     # Showcase your tech tags
