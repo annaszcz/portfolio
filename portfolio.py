@@ -39,9 +39,11 @@ with tab1:
     st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation.")
     
     # Showcase your tech tags
-    st.info("🛠️ **Technologies Used:** Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression, "
-            "Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn"
-    )
+    st.info(
+        "🛠️ **Technologies Used:**\n"
+        "- Data Wrangling, Exploratory Data Analysis, Time Series, Linear Regression\n"
+        "- **Python:** Pandas, Numpy, Sklearn, Matplotlib, Seaborn"
+)
     
     # Mock data to show you know how data inputs work
     mock_data = pd.DataFrame({
