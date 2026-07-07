@@ -11,7 +11,7 @@ st.set_page_config(
 # 2. Sidebar / Bio
 with st.sidebar:
     st.markdown("# Anna Szcz")
-    st.markdown("🚀 **Data Analyst** specializing in complex relational database design, analytics engineering, and business insight generation.")
+    st.markdown("🚀 **Data Analyst** specialising in complex relational database design, analytics engineering, and business insight generation.")
     st.markdown("---")
     st.markdown("🔗 **Connect with me:**")
     st.markdown("[GitHub](https://github.com/annaszcz)")
@@ -35,12 +35,13 @@ st.header("🎯 Featured Projects")
 tab1, tab2 = st.tabs(["📊 Bike-share analysis" , "🛍️ E-commerce-analysis"])
 
 with tab1:
-    st.subheader(" Bike share analysis  on dataset from a company called Capital Bike Share (Washington, DC)")
+    st.subheader(" Bike share analysis on Capital Bike Share (Washington, DC) dataset")
     st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation")
     
     # Showcase your tech tags
     st.info("🛠️ **Technologies Used:** Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression, ",
-            "Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn")
+            "**Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn**"
+    )
     
     # Mock data to show you know how data inputs work
     mock_data = pd.DataFrame({
