@@ -35,12 +35,12 @@ st.header("🎯 Featured Projects")
 tab1, tab2 = st.tabs(["📊 Bike-share analysis" , "🛍️ E-commerce-analysis"])
 
 with tab1:
-    st.subheader(" Bike share analysis on Capital Bike Share (Washington, DC) dataset")
-    st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation")
+    st.subheader(" Dataset from Capital Bike Share (Washington, DC)")
+    st.markdown("**Business Goal:** Prediction of the bike demand and supply optimisation.")
     
     # Showcase your tech tags
-    st.info("🛠️ **Technologies Used:** Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression, ",
-            "**Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn**"
+    st.info("🛠️ **Technologies Used:** Data Wrangling, Exploratory Data Analysis, Time Series and Linear Regression, "
+            "Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn"
     )
     
     # Mock data to show you know how data inputs work
