@@ -43,7 +43,12 @@ with tab1:
             "Python: Pandas, Numpy, Sklearn, Matplotlib, Seaborn")
     
     # Mock data to show you know how data inputs work
-
+    mock_data = pd.DataFrame({
+        'cohort_month': ['January', 'February', 'March'],
+        'total_users': [1200, 950, 1100],
+        'month_1_retention': ['88%', '84%', '89%'],
+        'month_2_retention': ['61%', '58%', '64%']
+    })
     
     # Split the view layout side-by-side using columns
     col1, col2 = st.columns([1, 1])
